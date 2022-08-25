@@ -1,0 +1,31 @@
+span{
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid;
+    padding-top: 1rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+
+}
+.last{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+
+}
+#root{
+display: flex;
+flex-direction: column;
+margin-top: 20rem;
+gap: 2rem;
+align-items: center;
+text-align: center;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
