@@ -1,31 +1,79 @@
-span{
-    width: 5rem;
-    height: 2rem;
-    border: 1px solid;
-    padding-top: 1rem;
+body {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: rgb(16, 4, 27);
+  user-select: none;
+  align-items: center;
+  justify-content: center;
 }
-.top{
-    display: flex;
-    align-items: center;
-    gap: 0.2rem;
+
+span {
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
 
 }
-.last{
-    display: flex;
-    align-items: center;
-    gap: 0.2rem;
+.top {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.last {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+#root {
+  display: flex;
+  background-color: rgb(23, 14, 32);
+  flex-direction: column;
+  margin-top: 0rem;
+  gap: 2rem;
+  align-items: center;
+  border: 1px solid;
+  text-align: center;
+  width: 70%;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 10rem;
+  margin-left: 12rem;
+}
+#search {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1rem;
+}
+.searchiing {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+input {
+  padding: 0.6rem;
+  width: 20rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background-color: rgb(23, 14, 32);
 
+  color: white;
 }
-#root{
-display: flex;
-flex-direction: column;
-margin-top: 20rem;
-gap: 2rem;
-align-items: center;
-text-align: center;
+.one {
+  border: 1px solid;
+  padding-left: 1rem;
+  border-radius: 1rem;
 }
-#search{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.two {
+  border: 1px solid;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#btn {
+  padding: 0.6rem;
+  cursor: pointer;
+  border: 2px solid white;
 }
